@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Получение URL</h1>
+    <div class="search-container">
+      <input type="text" id="keyword" placeholder="Введите ключевое слово (javascript или nodejs)" class="input">
+      <button id="fetchUrls" class="button">Ввести</button>
+    </div>
+    <ul id="urlList" class="list"></ul>
+    <progress id="progressBar" value="0" max="100" class="progress" style="display:none;"></progress>
+    <ul id="contentList" class="list"></ul>
+    <div id="contentDisplay" class="content-display"></div>
+  </div>
+</body>
+</html>
